@@ -1,3 +1,5 @@
+package src.main.java;
+
 public class LeetcodeTask2114 {
     public static void main(String[] args) {
         String[] nums = new String[]{"alice and bob love leetcode", "i think so too", "this is great thanks very much"};

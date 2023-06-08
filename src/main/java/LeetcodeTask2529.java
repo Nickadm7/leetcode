@@ -1,3 +1,5 @@
+package src.main.java;
+
 public class LeetcodeTask2529 {
     public static void main(String[] args) {
         int[] nums = new int[]{-2, -1, -1, 1, 2, 3};
@@ -12,10 +14,10 @@ public class LeetcodeTask2529 {
         int countPositive = 0;
         int countNegative = 0;
 
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] < 0) {
+        for (int num : nums) {
+            if (num < 0) {
                 countNegative += 1;
-            } else if (nums[i] > 0) {
+            } else if (num > 0) {
                 countPositive += 1;
             }
         }

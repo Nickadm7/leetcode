@@ -1,3 +1,5 @@
+package src.main.java;
+
 public class LeetcodeTask2652 {
     public static void main(String[] args) {
         System.out.println(sumOfMultiples(7));

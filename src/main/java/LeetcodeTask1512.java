@@ -1,3 +1,5 @@
+package src.main.java;
+
 public class LeetcodeTask1512 {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 2, 3, 1, 1, 3};

@@ -1,3 +1,5 @@
+package src.main.java;
+
 public class LeetcodeTask2011 {
     public static void main(String[] args) {
         String[] nums = new String[]{"--X", "X++", "X++"};
