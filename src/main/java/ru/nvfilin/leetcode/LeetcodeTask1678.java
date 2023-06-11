@@ -1,4 +1,4 @@
-package src.main.java;
+package ru.nvfilin.leetcode;
 
 public class LeetcodeTask1678 {
     public static void main(String[] args) {

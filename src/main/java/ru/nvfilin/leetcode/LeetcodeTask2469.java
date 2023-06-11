@@ -1,4 +1,4 @@
-package src.main.java;
+package ru.nvfilin.leetcode;
 
 import java.util.Arrays;
 

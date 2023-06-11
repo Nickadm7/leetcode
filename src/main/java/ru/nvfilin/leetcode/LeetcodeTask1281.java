@@ -1,12 +1,7 @@
-package src.main.java;
+package ru.nvfilin.leetcode;
 
 public class LeetcodeTask1281 {
-    public static void main(String[] args) {
-        System.out.println(subtractProductAndSum(234));
-        System.out.println(subtractProductAndSum(4421));
-    }
-
-    public static int subtractProductAndSum(int n) {
+    public int subtractProductAndSum(int n) {
         int product = 1;
         int sum = 0;
         int buffer;

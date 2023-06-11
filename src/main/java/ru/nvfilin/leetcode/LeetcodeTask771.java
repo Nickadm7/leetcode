@@ -1,4 +1,4 @@
-package src.main.java;
+package ru.nvfilin.leetcode;
 
 public class LeetcodeTask771 {
     public static void main(String[] args) {
@@ -18,7 +18,6 @@ public class LeetcodeTask771 {
         return out;
     }
 }
-
 
 /*
 771. Jewels and Stones
