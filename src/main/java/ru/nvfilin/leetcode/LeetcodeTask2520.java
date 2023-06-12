@@ -1,14 +1,7 @@
 package ru.nvfilin.leetcode;
 
 public class LeetcodeTask2520 {
-    public static void main(String[] args) {
-        System.out.println(countDigits(7));
-        System.out.println(countDigits(121));
-        System.out.println(countDigits(1248));
-        System.out.println(countDigits(54));
-    }
-
-    public static int countDigits(int num) {
+    public int countDigits(int num) {
         int count = 0;
         int input = num;
         while (num > 0) {
