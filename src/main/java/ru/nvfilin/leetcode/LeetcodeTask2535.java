@@ -1,15 +1,7 @@
 package ru.nvfilin.leetcode;
 
 public class LeetcodeTask2535 {
-    public static void main(String[] args) {
-        int[] nums = new int[]{1, 15, 6, 3};
-        int[] nums1 = {1, 2, 3, 4};
-        System.out.println(differenceOfSum(nums));
-        System.out.println(differenceOfSum(nums1));
-
-    }
-
-    public static int differenceOfSum(int[] nums) {
+    public int differenceOfSum(int[] nums) {
         int sum = 0;
         int dSum = 0;
         for (int num : nums) {

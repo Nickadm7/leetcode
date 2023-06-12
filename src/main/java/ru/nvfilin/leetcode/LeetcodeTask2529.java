@@ -1,16 +1,7 @@
 package ru.nvfilin.leetcode;
 
 public class LeetcodeTask2529 {
-    public static void main(String[] args) {
-        int[] nums = new int[]{-2, -1, -1, 1, 2, 3};
-        int[] nums1 = {-3, -2, -1, 0, 0, 1, 2};
-        int[] nums2 = {5, 20, 66, 1314};
-        System.out.println(solution(nums));
-        System.out.println(solution(nums1));
-        System.out.println(solution(nums2));
-    }
-
-    public static int solution(int[] nums) {
+    public int solution(int[] nums) {
         int countPositive = 0;
         int countNegative = 0;
 

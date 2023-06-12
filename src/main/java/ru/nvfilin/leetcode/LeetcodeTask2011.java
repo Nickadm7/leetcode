@@ -1,16 +1,7 @@
 package ru.nvfilin.leetcode;
 
 public class LeetcodeTask2011 {
-    public static void main(String[] args) {
-        String[] nums = new String[]{"--X", "X++", "X++"};
-        String[] nums1 = new String[]{"++X", "++X", "X++"};
-        String[] nums2 = new String[]{"X++", "++X", "--X", "X--"};
-        System.out.println(finalValueAfterOperations(nums));
-        System.out.println(finalValueAfterOperations(nums1));
-        System.out.println(finalValueAfterOperations(nums2));
-    }
-
-    public static int finalValueAfterOperations(String[] operations) {
+    public int finalValueAfterOperations(String[] operations) {
         int out = 0;
         for (String s : operations) {
             if (s.charAt(1) == '-') out--;

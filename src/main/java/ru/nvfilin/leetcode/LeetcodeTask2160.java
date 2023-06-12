@@ -3,12 +3,7 @@ package ru.nvfilin.leetcode;
 import java.util.Arrays;
 
 public class LeetcodeTask2160 {
-    public static void main(String[] args) {
-        System.out.println(minimumSum(2932));
-        System.out.println(minimumSum(4009));
-    }
-
-    public static int minimumSum(int num) {
+    public int minimumSum(int num) {
         int[] input = new int[4];
         for (int i = 0; i < 4; i++) {
             input[i] = num % 10;

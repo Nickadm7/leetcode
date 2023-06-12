@@ -1,14 +1,8 @@
 package ru.nvfilin.leetcode;
 
 public class LeetcodeTask1732 {
-    public static void main(String[] args) {
-        int[] nums = new int[]{-5, 1, 5, 0, -7};
-        int[] nums1 = new int[]{-4, -3, -2, -1, 4, 3, 2};
-        System.out.println(largestAltitude(nums));
-        System.out.println(largestAltitude(nums1));
-    }
 
-    public static int largestAltitude(int[] gain) {
+    public int largestAltitude(int[] gain) {
         int now = 0;
         int max = 0;
         for (int current : gain) {

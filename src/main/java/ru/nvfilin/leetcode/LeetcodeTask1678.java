@@ -1,13 +1,7 @@
 package ru.nvfilin.leetcode;
 
 public class LeetcodeTask1678 {
-    public static void main(String[] args) {
-        System.out.println(interpret("G()(al)"));
-        System.out.println(interpret("G()()()()(al)"));
-        System.out.println(interpret("(al)G(al)()()G"));
-    }
-
-    public static String interpret(String command) {
+    public String interpret(String command) {
         char[] input = command.toCharArray();
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < input.length; i++) {

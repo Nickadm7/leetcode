@@ -4,16 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LeetcodeTask1431 {
-    public static void main(String[] args) {
-        int[] nums = new int[]{2,3,5,1,3};
-        int[] nums1 = new int[]{4,2,1,1,2};
-        int[] nums2 = new int[]{12,1,12};
-        System.out.println(kidsWithCandies(nums, 3));
-        System.out.println(kidsWithCandies(nums1, 1));
-        System.out.println(kidsWithCandies(nums2, 10));
-    }
-
-    public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+    public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         int max = 0;
         for (int c: candies) {
             if (c > max) max = c;
